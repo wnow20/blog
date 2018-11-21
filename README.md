@@ -1,1 +1,1 @@
-# blog
+> Frank Lin's notes
