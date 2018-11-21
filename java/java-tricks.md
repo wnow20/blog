@@ -35,3 +35,16 @@ public class TestTest {
     }
 }
 ```
+
+## 生成随机数
+> 参考 Apache Commons Lang 的 RandomStringUtils
+
+```java
+@Test
+public void givenUsingApache_whenGeneratingRandomAlphanumericString_thenCorrect() {
+    String generatedString = RandomStringUtils.randomAlphanumeric(10);
+
+    System.out.println(generatedString);
+}
+```
+

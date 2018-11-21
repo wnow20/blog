@@ -159,9 +159,19 @@ LocalDate initialDate = LocalDate.parse("2007-05-10");
 
 LocalDate finalDate = initialDate.plus(Period.ofDays(5));
 
-int five = Period.between(finalDate, initialDate).getDays();
+// 
+// int five = Period.between(finalDate, initialDate).getDays();
 
-// int five = ChronoUnit.DAYS.between(finalDate , initialDate);
+int five = ChronoUnit.DAYS.between(finalDate , initialDate);
+```
+
+```java
+// 3 years, 2 months, 1 day
+Period period = Period.of(3, 2, 1);
+
+// You can modify the values of dates using periods
+LocalDate newDate = oldDate.plus(period);
+ZonedDateTime newDateTime = oldDateTime.minus(period);
 ```
 
 ### Duration

@@ -28,19 +28,6 @@ _onresize 事件会在窗口或框架（iframe）被调整大小时发生。除�
 * [jQuery-Resize文档][]
 * [jQuery-Resize案例][]
 
-
-## 关于作者
-
-> * 如有疑问，欢迎您与我交流，QQ:854530770，喜欢NodeJS的童鞋可以加 329388789 (QQ群)一起学习
-> * 作者：林皓轩
-> * 网址：[zcoder.cn](http://zcoder.cn)
-> * Weibo：[wnow20](http://weibo.com/wnow20)
-> * GitHub: [wnow20](https://github.com/wnow20)
-
-原创文章，转载请注明来自[林盛龙](http://my.oschina.net/u/225690/blog)，尊重原创，净化网络环境从我做起，谢谢您的配合。顺道给大家推荐一个好用的VPN（[GreenVPN](http://gjsq.me/1472098)）。
-
-本文地址：<http://my.oschina.net/u/225690/blog/354580>
-
 [其它元素]: http://www.w3school.com.cn/jsref/event_onresize.asp
 [jQuery-Resize]: https://github.com/cowboy/jquery-resize
 [jQuery-Resize文档]: http://benalman.com/code/projects/jquery-resize/docs/
