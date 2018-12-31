@@ -85,3 +85,5 @@ if (friends.mightContain(dude)) {
   // we might, for example, start asynchronously loading things for dude while we do a more expensive exact check
 }
 ```
+
+更多参考：[布隆过滤器 (Bloom Filter) 详解](https://www.cnblogs.com/allensun/archive/2011/02/16/1956532.html)
