@@ -69,3 +69,19 @@ public class BloomFilters {
     }
 }
 ```
+
+### Guava中的BloomFilter
+> [Guava Wiki - BloomFilter](https://github.com/google/guava/wiki/HashingExplained#bloomfilter)
+> [Baeldung - Bloom Filter in Java using Guava](https://www.baeldung.com/guava-bloom-filter)
+
+```java
+BloomFilter<Person> friends = BloomFilter.create(personFunnel, 500, 0.01);
+for (Person friend : friendsList) {
+  friends.put(friend);
+}
+// much later
+if (friends.mightContain(dude)) {
+  // the probability that dude reached this place if he isn't a friend is 1%
+  // we might, for example, start asynchronously loading things for dude while we do a more expensive exact check
+}
+```
