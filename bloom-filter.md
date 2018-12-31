@@ -71,8 +71,8 @@ public class BloomFilters {
 ```
 
 ### Guava中的BloomFilter
-> [Guava Wiki - BloomFilter](https://github.com/google/guava/wiki/HashingExplained#bloomfilter)
-> [Baeldung - Bloom Filter in Java using Guava](https://www.baeldung.com/guava-bloom-filter)
+ - [Guava Wiki - BloomFilter](https://github.com/google/guava/wiki/HashingExplained#bloomfilter)
+ - [Baeldung - Bloom Filter in Java using Guava](https://www.baeldung.com/guava-bloom-filter)
 
 ```java
 BloomFilter<Person> friends = BloomFilter.create(personFunnel, 500, 0.01);
